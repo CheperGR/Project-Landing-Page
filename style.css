@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    padding: 20px 5px 60px;
+    background-color: #1f2937;
+    font-weight: 900;
+    
+}
+
+.header-links{
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    gap: 15px;
+    padding-right: 5px;
+    font-weight: 500;
+}
+.under-left{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.under-right{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.under{
+    border: solid;
+    display: flex;
+    background-color: #1f2937;
+    padding-bottom: 100px;
+}
+
+.under-left h1{
+    font-size: 48px;
+    color: aliceblue;
+    margin: 0;
+}
+
+.under-left p{
+    color: aliceblue;
+    margin-top: 5px;
+}
+
+.container {
+    width: 800px; /* Your desired pixel count */
+    margin: 0 auto; /* This centers the container itself */
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    border: solid red;
+}
+
+.signup-button{
+    background-color: #3882f6; /* Έντονο μπλε */
+    color: white;
+    padding: 8px 24px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    width: 100px;
+}
+
+.info{
+    border: solid;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    color: #1f2937;
+}
+
+.pics{
+    border: solid;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 30px;
+}
